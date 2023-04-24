@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>회원가입</title>
+</head>
+<body>
+<nav class="nav-container">
+    <a href="index.html">메인</a>
+    <a href="signup.html">회원가입</a>
+    <a href="login.html">로그인</a>
+</nav>
+<main class="main-container">
+
+    <h1 class="ta-c">Signup</h1>
+    <form  action="" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" autofocus required placeholder="Enter your username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required placeholder="Enter your password" autocomplete="new-password">
+        <br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="confirm_password" required placeholder="Confirm your password" autocomplete="new-password">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Enter your email">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="18" step="1" required placeholder="Enter your age">
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="hobbies" id="reading" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="sports" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="hobbies" id="traveling" value="traveling">
+        <label for="traveling">Traveling</label>
+        <br>
+        <button type="submit" >Signup</button>
+
+    </form>
+    <p class="ta-c">Already have an account? <a href="login.html">Login here</a>.</p>
+</main>
+</body>
+</html>
