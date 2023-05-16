@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "title": "Product 1",
+      "category": "Electronics",
+      "price": 49.99,
+      "image": "https://cdn.011st.com/11dims/resize/720x360/quality/75/11src/browsing/space/banner/2023/5/16/2305160939398600706_75.jpg",
+      "description": "Description of Product 1"
+    },
+    {
+      "title": "Product 2",
+      "category": "Clothing",
+      "price": 29.99,
+      "image": "https://cdn.011st.com/11dims/resize/720x360/quality/75/11src/product/521520120/D.jpg?657000000",
+      "description": "Description of Product 2"
+    },
+    {
+      "title": "Product 3",
+      "category": "Books",
+      "price": 9.99,
+      "image": "https://cdn.011st.com/11dims/resize/220/11src/product/4317435450/L300.jpg?700000000",
+      "description": "Description of Product 3"
+    },
+    {
+      "title": "Product 4",
+      "category": "Books",
+      "price": 10.99,
+      "image": "https://cdn.011st.com/11dims/resize/220/11src/product/4276757463/L300.jpg?950000000",
+      "description": "Description of Product 4"
+    },
+    {
+      "title": "Product 5",
+      "category": "Books",
+      "price": 11.99,
+      "image": "https://cdn.011st.com/11dims/resize/300/11src/asin/1338745166/B.jpg?1676908082964",
+      "description": "Description of Product 5"
+    },
+    {
+      "title": "Product 6",
+      "category": "Clothing",
+      "price": 29.99,
+      "image": "https://cdn.011st.com/11dims/resize/220/11src/product/1124027418/L300.jpg?418000000",
+      "description": "Description of Product 6"
+    },
+    {
+      "title": "Product 7",
+      "category": "Clothing",
+      "price": 39.99,
+      "image": "https://cdn.011st.com/11dims/resize/300/11src/asin/B000N8PYUU/B.jpg?1683860361011",
+      "description": "Description of Product 7"
+    },
+    {
+      "title": "Product 8",
+      "category": "Electronics",
+      "price": 50.99,
+      "image": "https://cdn.011st.com/11dims/resize/300/11src/asin/B07Z5K47ZV/B.jpg?1683236285085",
+      "description": "Description of Product 8"
+    },
+    {
+      "title": "Product 9",
+      "category": "Electronics",
+      "price": 90.99,
+      "image": "https://cdn.011st.com/11dims/resize/220/11src/cat/23/3/3/4/4/5/2/nbvlO/268334452_0.png",
+      "description": "Description of Product 9"
+    },
+    {
+      "title": "Product 10",
+      "category": "Clothing",
+      "price": 329.99,
+      "image": "https://cdn.011st.com/11dims/resize/220/11src/product/155944702/L300.jpg?911000000",
+      "description": "Description of Product 10"
+    },
+    {
+      "title": "Product 11",
+      "category": "Electronics",
+      "price": 520.99,
+      "image": "https://cdn.011st.com/11dims/resize/300/11src/asin/B07B93MCZR/B.jpg?1682353242956",
+      "description": "Description of Product 11"
+    },
+    {
+      "title": "Product 12",
+      "category": "Electronics",
+      "price": 901.99,
+      "image": "https://cdn.011st.com/11dims/resize/300/11src/asin/B09JF7Y2F9/B.jpg?1682323381686",
+      "description": "Description of Product 12"
+    }
+  ]
+}

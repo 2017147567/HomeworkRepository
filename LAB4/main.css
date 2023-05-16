@@ -1,0 +1,112 @@
+/* CSS styles for the E-commerce website */
+
+/* Centering the main content within 1020px width */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Styling the
+header and footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    max-width: 1020px;
+    width: 100%;
+}
+
+header h1, footer {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling the main content */
+main {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1020px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#categorySelect, #sortSelect {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+}
+
+/* Styling product tiles */
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 5px;
+}
+
+/* Styling the infinite scroll loader */
+.loader {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Styling the description section */
+#description {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#description h2 {
+    margin-bottom: 10px;
+}
+
+#description img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
